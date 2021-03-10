@@ -50,3 +50,14 @@ pip freeze > requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+
+### To execute tests and see output
+```bash
+pytest -v -s
+```
+
+### To run as main program
+```bash
+cd game-of-life # project root
+python main.py
+```
